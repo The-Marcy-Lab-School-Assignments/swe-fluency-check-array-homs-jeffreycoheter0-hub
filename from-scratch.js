@@ -37,12 +37,13 @@ const sampleNumbers = [7, 3, 9, 1, 4, 8, 2, 10, 5, 6];
 const getEvenNumbers = (nums) => {
   return nums.filter(num => num % 2 === 0)
 };
-console.log(getEvenNumbers(sampleNumbers));
+// console.log(getEvenNumbers(sampleNumbers));
 
 // Problem 5
 const getLargestNumber = (numbers) => {
-
+  return numbers.reduce(max => Math.max(max));
 };
+console.log(getLargestNumber(sampleNumbers));
 
 /* -------------------------------------------------- */
 /* --------------OBJECT ARRAY PROBLEMS--------------- */
@@ -58,28 +59,28 @@ const sampleUsers = [
 
 // Problem 6
 const printUserNamesAndScores = (users) => {
-
+  // I would use the forEach() method
 };
 
 
 // Problem 7
 const getUserNames = (users) => {
-
+  // I would use the map() method
 };
 
 
 // Problem 8
 const getActiveUsersUnder30 = (users) => {
-
+  // I would use a filter() method
 };
 
 
 // Problem 9
 const getTotalScore = (users) => {
-
+  // I would use the reduce() method
 };
 
 // Problem 10
 const sortUsersByScoreDescending = (users) => {
-
+  // I would use the sort() method
 };
